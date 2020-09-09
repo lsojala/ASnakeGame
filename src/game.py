@@ -244,4 +244,4 @@ def go_home():
 
 
 game_loop()
-print("Game Ending")
+print("Game Ended")

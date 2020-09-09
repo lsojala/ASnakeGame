@@ -113,7 +113,6 @@ class Game(tk.Canvas):                          # Main class for the game itself
 
 
     def resuffle_food(self):
-        # print("<DEBUG> New Food Locations!")
         self.objects.food_positions = []
         self.delete("food")
         self.objects.new_food()
@@ -148,11 +147,7 @@ class Game(tk.Canvas):                          # Main class for the game itself
         sum_direction = []
         for i in range(2):
             sum_direction.append(new_direction[i]+self.objects.direction[i])
-        # print("<DEBUG> New direction: ".,new_direction)
-        # print("<DEBUG> Old direction: ",self.objects.direction)
-        # print("<DEBUG> Direction sum: ", sum_direction)
         if not sum_direction == [0,0]:
-            # print("<DEBUG> Changing direction!")
             self.objects.direction = new_direction
 
 
@@ -161,7 +156,6 @@ class Game(tk.Canvas):                          # Main class for the game itself
             new_direction= dir_dict[e.keysym]
             self.change_direction(new_direction)
         except KeyError:
-            # print("<DEBUG> Unknown key pressed!")
             return
         
 

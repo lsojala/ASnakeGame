@@ -18,9 +18,6 @@ class Objects:
             amount_raw = self.settings.max_food - self.last_score
             if amount_raw > 1:
                 food_amount = int(amount_raw)
-            # print("<DEBUG> Last score: ",self.last_score)
-            # print("<DEBUG> Amount_raw: ",amount_raw)
-            # print("<DEBUG> Food amount: ",food_amount)
             return food_amount
         elif self.settings.food_spawning == 1:
             return randint(min_food,max_food)

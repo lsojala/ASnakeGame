@@ -1,7 +1,7 @@
 # A Snake Game
 The legendary Snake Game recreated with Python using tkinter library.
 
-Based on Teclado tutorial: ![How to recreate the Snake game with Python!](https://www.youtube.com/watch?v=yB1aSBM8fvI)
+Based on Teclado tutorial: [How to recreate the Snake game with Python!](https://www.youtube.com/watch?v=yB1aSBM8fvI)
   
    
 Besides classical Snake variant some additional game options were implemented:

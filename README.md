@@ -9,9 +9,11 @@ Besides classical Snake variant some additional game options were implemented:
 |Classic snake                                  | More game options such as plentitude of food.|  
     
 
+## Requirements
+Python 3.x
+Pillow==8.1.0
 
-
-# Know issues
+## Know issues
 **Windows:**  
 After the first game, at the start the game is unresponsive to commands. This is a "feature" of tkinter itself, and caused by the new window not being in focus.
 As the game was intented to be interacted by an AI rather than human user, this is not considered big issue.
